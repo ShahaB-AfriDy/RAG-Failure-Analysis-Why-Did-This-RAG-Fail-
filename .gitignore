@@ -1,0 +1,55 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Environment Variables (IMPORTANT)
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==============================
+# AI / ML Specific
+# ==============================
+
+# ChromaDB database
+chroma/
+chromadb/
+
+# Vector stores
+vectorstore/
+db/
+
+# Large model files
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
