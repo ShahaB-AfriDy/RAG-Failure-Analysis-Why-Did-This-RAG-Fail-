@@ -1,0 +1,90 @@
+{
+    "What time does the library close?": {
+        "retrieved_chunks": [
+            "The university library opens at 8:00 AM",
+            "The university library opens at 8:00 AM",
+            "The university library opens at 8:00 AM"
+        ],
+        "answer": "The provided text does not state what time the library closes."
+    },
+    "How many hours can a gym member use the gym per day?": {
+        "retrieved_chunks": [
+            "The gym allows members to use",
+            "The gym allows members to use",
+            "The gym allows members to use"
+        ],
+        "answer": "The provided context does not state how many hours a gym member can use the gym per day."
+    },
+    "When is the annual academic meeting?": {
+        "retrieved_chunks": [
+            "The annual academic meeting is",
+            "The annual academic meeting is",
+            "The annual academic meeting is"
+        ],
+        "answer": "The provided context does not contain information about when the annual academic meeting is."
+    },
+    "After how many days will an assignment receive a penalty?": {
+        "retrieved_chunks": [
+            "days will receive a penalty.",
+            "days will receive a penalty.",
+            "days will receive a penalty."
+        ],
+        "answer": "This document does not contain the answer to this question."
+    },
+    "When does the cafeteria start serving breakfast?": {
+        "retrieved_chunks": [
+            "The cafeteria serves breakfast from",
+            "The cafeteria serves breakfast from",
+            "The cafeteria serves breakfast from"
+        ],
+        "answer": "The provided context does not specify when the cafeteria starts serving breakfast. It only states that \"The cafeteria serves breakfast from\"."
+    },
+    "How many computers are available in the university labs?": {
+        "retrieved_chunks": [
+            "Computer Lab B contains 35 computers.",
+            "Computer Lab B contains 35 computers.",
+            "Computer Lab B contains 35 computers."
+        ],
+        "answer": "The provided context only mentions Computer Lab B. Therefore, based on the given information, there are 35 computers available."
+    },
+    "What topics are covered in the AI course?": {
+        "retrieved_chunks": [
+            "The AI course focuses on machine",
+            "The AI course focuses on machine",
+            "The AI course focuses on machine"
+        ],
+        "answer": "The AI course focuses on machine."
+    },
+    "How much is the parking fee?": {
+        "retrieved_chunks": [
+            "The parking fee is $50 per semester.",
+            "The parking fee is $50 per semester.",
+            "The parking fee is $50 per semester."
+        ],
+        "answer": "The parking fee is $50 per semester."
+    },
+    "Until what time is the health center open?": {
+        "retrieved_chunks": [
+            "The student health center opens from",
+            "The student health center opens from",
+            "The student health center opens from"
+        ],
+        "answer": "The provided context does not state the closing time of the student health center. It only repeats that it opens."
+    },
+    "What is the total number of students and total computers in labs?": {
+        "retrieved_chunks": [
+            "Computer Lab A contains 40 computers.",
+            "Computer Lab A contains 40 computers.",
+            "Computer Lab A contains 40 computers."
+        ],
+        "answer": "I cannot answer the question about the total number of students. The provided context only states that Computer Lab A contains 40 computers."
+    },
+    "What is the current assignment penalty rule?": {
+        "retrieved_chunks": [
+            "days will receive a penalty.",
+            "days will receive a penalty.",
+            "days will receive a penalty."
+        ],
+        "answer": "Based on the provided context, it is stated that \"days will receive a penalty.\" However, the specific number of days that triggers this penalty is not mentioned. Therefore, I cannot determine the current assignment penalty rule."
+    }
+}

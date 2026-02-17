@@ -1,0 +1,98 @@
+{
+    "What time does the library close?": {
+        "retrieved_chunks": [
+            "the library closes at 8:00 PM",
+            "center remains open until",
+            "6:00 PM on weekdays."
+        ],
+        "answer": "The library closes at 8:00 PM."
+    },
+    "How many hours can a gym member use the gym per day?": {
+        "retrieved_chunks": [
+            "The gym allows members to use facilities for 2 hours per",
+            "gym usage limit has been",
+            "to 3 hours per day."
+        ],
+        "answer": "3 hours"
+    },
+    "When is the annual academic meeting?": {
+        "retrieved_chunks": [
+            "The annual academic meeting",
+            "Last year, the annual academic meeting was held on June 15,",
+            "The annual academic meeting is scheduled for June 10, 2025."
+        ],
+        "answer": "The annual academic meeting is scheduled for June 10, 2025."
+    },
+    "After how many days will an assignment receive a penalty?": {
+        "retrieved_chunks": [
+            "after 5 days will receive a penalty.",
+            "assignments within 7 days",
+            "A revised rule in 2025 states that assignments submitted"
+        ],
+        "answer": "5 days"
+    },
+    "When does the cafeteria start serving breakfast?": {
+        "retrieved_chunks": [
+            "The cafeteria serves breakfast from 7:00 AM to 10:00 AM.",
+            "in February 2025, breakfast",
+            "PM on weekdays."
+        ],
+        "answer": "The cafeteria serves breakfast from 7:00 AM."
+    },
+    "How many computers are available in the university labs?": {
+        "retrieved_chunks": [
+            "Computer Lab A contains 40 computers.",
+            "35 computers.",
+            "The university introduced a"
+        ],
+        "answer": "The context provided is insufficient to answer the question. It only mentions \"Computer Lab A contains 40 computers\" and then \"35 computers.\" It does not provide information about other labs or the total number of computers across all university labs."
+    },
+    "What topics are covered in the AI course?": {
+        "retrieved_chunks": [
+            "The AI course focuses on",
+            "The AI course focuses on machine learning and neural",
+            "Before 2025, the AI course mainly covered rule-based"
+        ],
+        "answer": "The AI course focuses on machine learning and neural networks."
+    },
+    "How much is the parking fee?": {
+        "retrieved_chunks": [
+            "The parking fee is $50 per",
+            "As of 2025, the parking fee",
+            "per day."
+        ],
+        "answer": "$50"
+    },
+    "Until what time is the health center open?": {
+        "retrieved_chunks": [
+            "During exam week, the health center remains open until 6:00",
+            "The student health center opens from 9:00 AM to 4:00 PM.",
+            "center remains open until"
+        ],
+        "answer": "The health center remains open until 6:00."
+    },
+    "What is the total number of students and total computers in labs?": {
+        "retrieved_chunks": [
+            "Computer Lab A contains 40",
+            "35 computers.",
+            "The total number of enrolled"
+        ],
+        "answer": "The provided context only states that \"Computer Lab A contains 40 35 computers.\" It does not provide information about the total number of students or the total number of computers in all labs. Therefore, I cannot answer your question."
+    },
+    "What is the current assignment penalty rule?": {
+        "retrieved_chunks": [
+            "A revised rule in 2025 states that assignments submitted",
+            "a penalty.",
+            "assignments within 7 days"
+        ],
+        "answer": "The provided context does not describe the current assignment penalty rule. It only mentions a revised rule taking effect in 2025."
+    },
+    "What is the current library schedule and parking fee?": {
+        "retrieved_chunks": [
+            "The parking fee is $50 per",
+            "the library closes at 8:00 PM",
+            "opens from 9:00 AM to 4:00"
+        ],
+        "answer": "The library opens from 9:00 AM to 4:00 PM and closes at 8:00 PM. The parking fee is $50."
+    }
+}
