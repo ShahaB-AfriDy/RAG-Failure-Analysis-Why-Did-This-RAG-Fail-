@@ -21,9 +21,10 @@ This project implements a **minimal Retrieval-Augmented Generation (RAG) pipelin
 
 ## 2. Repository Structure
 
-```
+```text
 RAG Failure Analysis/
 │
+├─ requirements.txt         # Python dependencies
 ├─ .env                     # API keys (not tracked in Git)
 ├─ README.md                # Project explanation
 ├─ corpus.txt               # Text corpus used for retrieval
@@ -66,7 +67,7 @@ The pipeline includes:
 
 ## 4. Question Design
 
-* 12 questions were manually crafted to explore **different failure modes**:
+* 12 questions manually crafted to explore **different failure modes**:
 
   * **Multi-document reasoning**: Combining information from multiple documents
   * **Temporal conflicts**: Old vs updated rules
@@ -91,7 +92,7 @@ pip install -r requirements.txt
 
 2. Set your Google API key in `.env`:
 
-```
+```text
 GOOGLE_API_KEY=your_api_key_here
 ```
 
@@ -122,7 +123,7 @@ jupyter notebook Rag_Failure_Analysis.ipynb
 
 ---
 
-## 7. Notes on Experimental Design
+## 7. Experimental Design Notes
 
 * **Chunk Size & Overlap**: Reduced intentionally to fragment critical context and induce retrieval and generation failures.
 * **Top-k & Retrieval Type**: Tested different retrieval configurations to observe hybrid failures and structural limitations.
@@ -138,3 +139,17 @@ jupyter notebook Rag_Failure_Analysis.ipynb
 * Extensive fine-tuning or embedding strategies
 
 This is strictly a **research-focused failure analysis**.
+
+---
+
+## 9. Requirements
+
+Install dependencies from `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+**Dependencies include**: `langchain`, `chromadb`, `langchain-google-genai`, `langchain-community`, `python-dotenv`.
+
+
