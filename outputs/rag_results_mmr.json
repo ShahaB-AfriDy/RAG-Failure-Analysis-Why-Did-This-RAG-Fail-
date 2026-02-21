@@ -1,0 +1,110 @@
+[
+    {
+        "question": "When is the annual academic meeting?",
+        "retrieved_chunks": [
+            "The annual academic meeting for 2023 was held on",
+            "The annual academic meeting for 2024 is scheduled",
+            "The Annual Research Symposium is held every June."
+        ],
+        "answer": "The context does not state when the annual academic meeting is held in general, only that the 2023 meeting was held and the 2024 meeting is scheduled."
+    },
+    {
+        "question": "When is the annual research event in June?",
+        "retrieved_chunks": [
+            "The Annual Research Symposium is held every June.",
+            "In 2023, it was held on June 18.",
+            "In 2024, it will be held on June 22."
+        ],
+        "answer": "The Annual Research Symposium is held every June."
+    },
+    {
+        "question": "How many credits are required to graduate?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "Students must complete at least 30 credits before",
+            "Students must complete at least 24 credits before"
+        ],
+        "answer": "The context does not state how many credits are required to graduate. It only mentions minimum credits required before certain events."
+    },
+    {
+        "question": "What time does the cafeteria start serving breakfast?",
+        "retrieved_chunks": [
+            "Starting in 2024, the cafeteria serves breakfast",
+            "breakfast at 8:00 AM during the 2023 academic",
+            "The university cafeteria started serving"
+        ],
+        "answer": "The cafeteria starts serving breakfast at 8:00 AM."
+    },
+    {
+        "question": "Are late thesis proposals accepted?",
+        "retrieved_chunks": [
+            "Late submissions are accepted with advisor",
+            "proposal by April 1.",
+            "proposal by March 1."
+        ],
+        "answer": "Yes, late thesis proposals are accepted with advisor proposal by April 1."
+    },
+    {
+        "question": "What is the student parking fee?",
+        "retrieved_chunks": [
+            "Parking fees were $5 per day for students and $10",
+            "for students and $12 per day for visitors.",
+            "Students must display a valid permit."
+        ],
+        "answer": "$5 per day"
+    },
+    {
+        "question": "Do students need 24 credits to graduate?",
+        "retrieved_chunks": [
+            "Students must complete at least 24 credits before",
+            "Students must complete at least 30 credits before",
+            "Credit requirements differ by enrollment year."
+        ],
+        "answer": "The context states that students must complete at least 24 credits before and also at least 30 credits before. It also mentions that credit requirements differ by enrollment year. Therefore, it is not possible to definitively say whether students need 24 credits to graduate based on the provided context."
+    },
+    {
+        "question": "When was the June meeting held in 2023?",
+        "retrieved_chunks": [
+            "on June 15, 2023.",
+            "In 2023, it was held on June 18.",
+            "meeting."
+        ],
+        "answer": "June 18."
+    },
+    {
+        "question": "When did the cafeteria open at 9:00 AM?",
+        "retrieved_chunks": [
+            "The university cafeteria started serving",
+            "Starting in 2024, the cafeteria serves breakfast",
+            "opened at 9:00 AM in January 2024."
+        ],
+        "answer": "January 2024"
+    },
+    {
+        "question": "What are the current graduation credit requirements?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "the updated credit requirement.",
+            "Students must complete at least 24 credits before"
+        ],
+        "answer": "The context does not provide the current graduation credit requirements. It only states that credit requirements differ by enrollment year and that students must complete at least 24 credits before a certain point."
+    },
+    {
+        "question": "Is parking free for university members?",
+        "retrieved_chunks": [
+            "Faculty members park free of charge.",
+            "for students and $12 per day for visitors.",
+            "Visitors must pay the daily parking fee at the"
+        ],
+        "answer": "Yes, parking is free for faculty members."
+    },
+    {
+        "question": "When does the fall semester begin?",
+        "retrieved_chunks": [
+            "The fall semester began on September 1, 2023.",
+            "The fall semester will begin on September 3,",
+            "breakfast at 8:00 AM during the 2023 academic"
+        ],
+        "answer": "The fall semester will begin on September 3."
+    }
+]

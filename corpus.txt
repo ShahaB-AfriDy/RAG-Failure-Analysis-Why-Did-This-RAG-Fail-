@@ -1,20 +1,49 @@
-The university library opens at 8:00 AM and closes at 6:00 PM on weekdays.
-Starting from January 2025, the library closes at 8:00 PM on weekdays.
-The gym allows members to use facilities for 2 hours per day.
-As of March 2025, the gym usage limit has been increased to 3 hours per day.
-The annual academic meeting is scheduled for June 10, 2025.
-Last year, the annual academic meeting was held on June 15, 2024.
-Students must submit assignments within 7 days after the deadline to avoid penalty.
-A revised rule in 2025 states that assignments submitted after 5 days will receive a penalty.
-The cafeteria serves breakfast from 7:00 AM to 10:00 AM.
-Due to staff shortage in February 2025, breakfast starts at 8:00 AM temporarily.
-Computer Lab A contains 40 computers.
-Computer Lab B contains 35 computers.
-The university introduced a new AI course in 2025.
-The AI course focuses on machine learning and neural networks.
-Before 2025, the AI course mainly covered rule-based systems.
-The parking fee is $50 per semester.
-As of 2025, the parking fee increased to $70 per semester.
-The student health center opens from 9:00 AM to 4:00 PM.
-During exam week, the health center remains open until 6:00 PM.
-The total number of enrolled students in 2024 was 2,000.
+Document 1: Academic Calendar 2023
+
+The annual academic meeting for 2023 was held on June 15, 2023.
+The fall semester began on September 1, 2023.
+The university cafeteria started serving breakfast at 8:00 AM during the 2023 academic year.
+Parking fees were $5 per day for students and $10 per day for visitors.
+
+Document 2: Academic Calendar 2024 (Revised)
+
+The annual academic meeting for 2024 is scheduled for June 20, 2024.
+The fall semester will begin on September 3, 2024.
+Starting in 2024, the cafeteria serves breakfast at 7:00 AM.
+Parking fees have increased to $7 per day for students and $12 per day for visitors.
+
+Document 3: Department Policy (Old Version – 2022)
+
+Graduate students must submit their thesis proposal by March 1.
+Late submissions are not accepted.
+Students must complete at least 24 credits before graduation.
+
+Document 4: Department Policy (Updated – 2024)
+
+Graduate students must submit their thesis proposal by April 1.
+Late submissions are accepted with advisor approval.
+Students must complete at least 30 credits before graduation.
+
+Document 5: Research Symposium Information
+
+The Annual Research Symposium is held every June.
+In 2023, it was held on June 18.
+In 2024, it will be held on June 22.
+The symposium is different from the academic meeting.
+
+Document 6: Cafeteria Notice (Temporary Change)
+
+Due to renovations, the cafeteria temporarily opened at 9:00 AM in January 2024.
+Regular breakfast hours resumed in February 2024.
+
+Document 7: Parking Regulation Notice
+
+Faculty members park free of charge.
+Students must display a valid permit.
+Visitors must pay the daily parking fee at the entrance kiosk.
+
+Document 8: Graduation Requirements Clarification
+
+Credit requirements differ by enrollment year.
+Students enrolled before 2023 follow the old credit rule.
+Students enrolled in 2023 or later follow the updated credit requirement.

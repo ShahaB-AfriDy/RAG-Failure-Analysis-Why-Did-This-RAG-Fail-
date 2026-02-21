@@ -1,98 +1,122 @@
 {
-    "What time does the library close?": {
-        "retrieved_chunks": [
-            "the library closes at 8:00 PM",
-            "center remains open until",
-            "6:00 PM on weekdays."
-        ],
-        "answer": "The library closes at 8:00 PM."
-    },
-    "How many hours can a gym member use the gym per day?": {
-        "retrieved_chunks": [
-            "The gym allows members to use facilities for 2 hours per",
-            "gym usage limit has been",
-            "to 3 hours per day."
-        ],
-        "answer": "3 hours"
-    },
     "When is the annual academic meeting?": {
         "retrieved_chunks": [
-            "The annual academic meeting",
-            "Last year, the annual academic meeting was held on June 15,",
-            "The annual academic meeting is scheduled for June 10, 2025."
+            "The annual academic meeting for 2023 was held on",
+            "The annual academic meeting for 2023 was held on",
+            "The annual academic meeting for 2023 was held on",
+            "The annual academic meeting for 2024 is scheduled",
+            "The annual academic meeting for 2024 is scheduled"
         ],
-        "answer": "The annual academic meeting is scheduled for June 10, 2025."
+        "answer": "The context does not provide the specific date for the annual academic meeting. It only mentions that the 2023 meeting was held and the 2024 meeting is scheduled."
     },
-    "After how many days will an assignment receive a penalty?": {
+    "When is the annual research event in June?": {
         "retrieved_chunks": [
-            "after 5 days will receive a penalty.",
-            "assignments within 7 days",
-            "A revised rule in 2025 states that assignments submitted"
+            "The Annual Research Symposium is held every June.",
+            "The Annual Research Symposium is held every June.",
+            "The Annual Research Symposium is held every June.",
+            "In 2023, it was held on June 18.",
+            "In 2023, it was held on June 18."
         ],
-        "answer": "5 days"
+        "answer": "The annual research event is held every June."
     },
-    "When does the cafeteria start serving breakfast?": {
+    "How many credits are required to graduate?": {
         "retrieved_chunks": [
-            "The cafeteria serves breakfast from 7:00 AM to 10:00 AM.",
-            "in February 2025, breakfast",
-            "PM on weekdays."
+            "Credit requirements differ by enrollment year.",
+            "Credit requirements differ by enrollment year.",
+            "Credit requirements differ by enrollment year.",
+            "Students must complete at least 30 credits before",
+            "Students must complete at least 30 credits before"
         ],
-        "answer": "The cafeteria serves breakfast from 7:00 AM."
+        "answer": "The provided context states that students must complete at least 30 credits."
     },
-    "How many computers are available in the university labs?": {
+    "What time does the cafeteria start serving breakfast?": {
         "retrieved_chunks": [
-            "Computer Lab A contains 40 computers.",
-            "35 computers.",
-            "The university introduced a"
+            "Starting in 2024, the cafeteria serves breakfast",
+            "Starting in 2024, the cafeteria serves breakfast",
+            "Starting in 2024, the cafeteria serves breakfast",
+            "breakfast at 8:00 AM during the 2023 academic",
+            "breakfast at 8:00 AM during the 2023 academic"
         ],
-        "answer": "The context provided is insufficient to answer the question. It only mentions \"Computer Lab A contains 40 computers\" and then \"35 computers.\" It does not provide information about other labs or the total number of computers across all university labs."
+        "answer": "The provided text does not state what time the cafeteria starts serving breakfast. It only mentions that breakfast is served at 8:00 AM during the 2023 academic year, and that starting in 2024, the cafeteria serves breakfast."
     },
-    "What topics are covered in the AI course?": {
+    "Are late thesis proposals accepted?": {
         "retrieved_chunks": [
-            "The AI course focuses on",
-            "The AI course focuses on machine learning and neural",
-            "Before 2025, the AI course mainly covered rule-based"
+            "Late submissions are accepted with advisor",
+            "Late submissions are accepted with advisor",
+            "Late submissions are accepted with advisor",
+            "proposal by April 1.",
+            "proposal by April 1."
         ],
-        "answer": "The AI course focuses on machine learning and neural networks."
+        "answer": "Yes, late thesis proposals are accepted with advisor."
     },
-    "How much is the parking fee?": {
+    "What is the student parking fee?": {
         "retrieved_chunks": [
-            "The parking fee is $50 per",
-            "As of 2025, the parking fee",
-            "per day."
+            "Parking fees were $5 per day for students and $10",
+            "Parking fees were $5 per day for students and $10",
+            "Parking fees were $5 per day for students and $10",
+            "for students and $12 per day for visitors.",
+            "for students and $12 per day for visitors."
         ],
-        "answer": "$50"
+        "answer": "$5"
     },
-    "Until what time is the health center open?": {
+    "Do students need 24 credits to graduate?": {
         "retrieved_chunks": [
-            "During exam week, the health center remains open until 6:00",
-            "The student health center opens from 9:00 AM to 4:00 PM.",
-            "center remains open until"
+            "Students must complete at least 24 credits before",
+            "Students must complete at least 24 credits before",
+            "Students must complete at least 24 credits before",
+            "Students must complete at least 30 credits before",
+            "Students must complete at least 30 credits before"
         ],
-        "answer": "The health center remains open until 6:00."
+        "answer": "The context indicates that students must complete at least 24 credits and also at least 30 credits before completing some requirement. Therefore, it is not definitively stated that students need exactly 24 credits to graduate."
     },
-    "What is the total number of students and total computers in labs?": {
+    "When was the June meeting held in 2023?": {
         "retrieved_chunks": [
-            "Computer Lab A contains 40",
-            "35 computers.",
-            "The total number of enrolled"
+            "on June 15, 2023.",
+            "on June 15, 2023.",
+            "on June 15, 2023.",
+            "In 2023, it was held on June 18.",
+            "In 2023, it was held on June 18."
         ],
-        "answer": "The provided context only states that \"Computer Lab A contains 40 35 computers.\" It does not provide information about the total number of students or the total number of computers in all labs. Therefore, I cannot answer your question."
+        "answer": "The June meeting in 2023 was held on June 18."
     },
-    "What is the current assignment penalty rule?": {
+    "When did the cafeteria open at 9:00 AM?": {
         "retrieved_chunks": [
-            "A revised rule in 2025 states that assignments submitted",
-            "a penalty.",
-            "assignments within 7 days"
+            "The university cafeteria started serving",
+            "The university cafeteria started serving",
+            "The university cafeteria started serving",
+            "Starting in 2024, the cafeteria serves breakfast",
+            "Starting in 2024, the cafeteria serves breakfast"
         ],
-        "answer": "The provided context does not describe the current assignment penalty rule. It only mentions a revised rule taking effect in 2025."
+        "answer": "This document does not contain the answer to this question."
     },
-    "What is the current library schedule and parking fee?": {
+    "What are the current graduation credit requirements?": {
         "retrieved_chunks": [
-            "The parking fee is $50 per",
-            "the library closes at 8:00 PM",
-            "opens from 9:00 AM to 4:00"
+            "Credit requirements differ by enrollment year.",
+            "Credit requirements differ by enrollment year.",
+            "Credit requirements differ by enrollment year.",
+            "the updated credit requirement.",
+            "the updated credit requirement."
         ],
-        "answer": "The library opens from 9:00 AM to 4:00 PM and closes at 8:00 PM. The parking fee is $50."
+        "answer": "The provided context does not specify the current graduation credit requirements. It only states that credit requirements differ by enrollment year and mentions \"the updated credit requirement\" without providing the actual number of credits."
+    },
+    "Is parking free for university members?": {
+        "retrieved_chunks": [
+            "Faculty members park free of charge.",
+            "Faculty members park free of charge.",
+            "Faculty members park free of charge.",
+            "for students and $12 per day for visitors.",
+            "for students and $12 per day for visitors."
+        ],
+        "answer": "Yes, faculty members park free of charge."
+    },
+    "When does the fall semester begin?": {
+        "retrieved_chunks": [
+            "The fall semester began on September 1, 2023.",
+            "The fall semester began on September 1, 2023.",
+            "The fall semester began on September 1, 2023.",
+            "The fall semester will begin on September 3,",
+            "The fall semester will begin on September 3,"
+        ],
+        "answer": "The fall semester will begin on September 3."
     }
 }
