@@ -1,0 +1,62 @@
+[
+  {
+    "question": "When is the annual academic meeting?",
+    "reason": "Corpus contains multiple academic events in June (research symposium, academic meeting, orientation), creating potential retrieval confusion and generation errors.",
+    "expected_failure": "Hybrid (Retrieval + Generation)"
+  },
+  {
+    "question": "When is the annual research event in June?",
+    "reason": "Requires distinguishing among multiple events; semantic similarity may retrieve related but incorrect documents.",
+    "expected_failure": "Correct retrieval, minor generation errors possible"
+  },
+  {
+    "question": "How many credits are required to graduate?",
+    "reason": "Answer depends on enrollment year (24 credits for pre-2022 vs 30 credits for post-2022); multi-document reasoning required.",
+    "expected_failure": "Correct retrieval but incorrect generation (conditional collapse)"
+  },
+  {
+    "question": "What time does the cafeteria start serving breakfast?",
+    "reason": "Corpus contains outdated and updated cafeteria hours; model must resolve temporal conflicts.",
+    "expected_failure": "Generation error (temporal bias)"
+  },
+  {
+    "question": "Are late thesis proposals accepted?",
+    "reason": "Policies may be updated; partial retrieval may result in outdated information being used.",
+    "expected_failure": "Generation bias, minor retrieval issues"
+  },
+  {
+    "question": "What is the student parking fee?",
+    "reason": "Fees vary by year and user type; temporal and context ambiguity can confuse the model.",
+    "expected_failure": "Generation error (temporal dominance / overgeneralization)"
+  },
+  {
+    "question": "Do students need 24 credits to graduate?",
+    "reason": "Depends on enrollment year; conditional reasoning across multiple documents needed.",
+    "expected_failure": "Correct retrieval but generation may collapse conditions"
+  },
+  {
+    "question": "When was the June meeting held in 2023?",
+    "reason": "Corpus includes multiple June events; ambiguity between academic meeting and research symposium.",
+    "expected_failure": "Question interpretation ambiguity"
+  },
+  {
+    "question": "When did the cafeteria open at 9:00 AM?",
+    "reason": "Requires extracting temporal-specific event from multiple documents; older vs newer schedules may interfere.",
+    "expected_failure": "Generation error (temporal bias)"
+  },
+  {
+    "question": "What are the current graduation credit requirements?",
+    "reason": "Conditional on enrollment year; question uses vague term 'current' without specifying cohort.",
+    "expected_failure": "Question interpretation ambiguity / generation error"
+  },
+  {
+    "question": "Is parking free for university members?",
+    "reason": "Ambiguous 'members' could refer to students, faculty, staff, or visitors; model must infer which group is intended.",
+    "expected_failure": "Question ambiguity"
+  },
+  {
+    "question": "When does the fall semester begin?",
+    "reason": "Corpus contains multiple years with different semester start dates; temporal conflict possible.",
+    "expected_failure": "Generation error (temporal bias)"
+  }
+]

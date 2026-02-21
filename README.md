@@ -28,8 +28,8 @@ RAG Failure Analysis/
 ├─ .env                     # API keys (not tracked in Git)
 ├─ README.md                # Project explanation
 ├─ corpus.txt               # Text corpus used for retrieval
-├─ Questions_List.txt       # 12 designed RAG failure questions
-├─ Rag_Failure_Analysis.ipynb  # Minimal RAG implementation notebook
+├─ Questions.json           # 12 designed RAG failure questions
+├─ Rag_Failure_Analysis.ipynb  # Minimal RAG implementation  notebook
 ├─ outputs/                 # JSON results from experiments
 │    ├─ rag_results_similarity.json
 │    └─ rag_results_mmr.json
