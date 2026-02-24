@@ -75,7 +75,7 @@ The pipeline includes:
   * **Conceptual confusion**: Similar concepts with subtle differences
   * **Structural reasoning limitations**
 
-* Questions are listed in `Questions_List.txt`.
+* Questions are listed in `Questions.json`.
 
 ---
 
