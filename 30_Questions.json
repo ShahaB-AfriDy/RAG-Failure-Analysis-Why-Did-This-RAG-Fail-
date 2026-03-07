@@ -1,0 +1,152 @@
+[
+  {
+    "question": "When is the annual academic meeting?",
+    "reason": "Multiple academic events occur in similar time periods in the corpus, which may lead the retriever to return overlapping documents and cause confusion during answer generation.",
+    "expected_failure": "Hybrid (Retrieval + Generation)"
+  },
+  {
+    "question": "When is the annual research symposium?",
+    "reason": "The event is clearly defined in a single document and does not require multi-document reasoning or temporal disambiguation.",
+    "expected_failure": "None"
+  },
+  {
+    "question": "Is the research symposium the same as the academic meeting?",
+    "reason": "The question requires distinguishing between two similar academic events, which may cause the model to incorrectly merge their meanings.",
+    "expected_failure": "Generation Ambiguity"
+  },
+  {
+    "question": "When was the academic meeting held in 2023?",
+    "reason": "Requires retrieving the correct document for a specific year and correctly generating the answer from it.",
+    "expected_failure": "Retrieval / Generation"
+  },
+  {
+    "question": "When will the academic meeting occur in 2024?",
+    "reason": "Future or upcoming events may not be clearly stated in the corpus, creating gaps during answer generation.",
+    "expected_failure": "Generation Gap"
+  },
+  {
+    "question": "Which event takes place on June 18, 2023?",
+    "reason": "Multiple events are described in the dataset, requiring the model to correctly map a date to the correct event.",
+    "expected_failure": "Generation Misinterpretation"
+  },
+  {
+    "question": "When does the fall semester begin?",
+    "reason": "The corpus contains semester start dates for different years, which can cause temporal conflicts during generation.",
+    "expected_failure": "Temporal Conflict"
+  },
+  {
+    "question": "When did the fall semester start in 2023?",
+    "reason": "The question specifies a precise year, making retrieval straightforward and reducing ambiguity.",
+    "expected_failure": "None"
+  },
+  {
+    "question": "When will the fall semester begin in 2024?",
+    "reason": "The model must retrieve the correct year-specific document and avoid mixing dates from other years.",
+    "expected_failure": "Hybrid / Temporal Misretrieval"
+  },
+  {
+    "question": "What time does the cafeteria start serving breakfast?",
+    "reason": "The corpus includes temporary and updated cafeteria schedules, which may bias the model toward incorrect times.",
+    "expected_failure": "Generation Temporal Bias"
+  },
+  {
+    "question": "When did the cafeteria temporarily open at 9:00 AM?",
+    "reason": "Requires retrieving a specific temporary schedule change from the documents.",
+    "expected_failure": "Retrieval / Temporal"
+  },
+  {
+    "question": "When did normal cafeteria hours resume in 2024?",
+    "reason": "Requires identifying the transition from temporary to normal schedules across documents.",
+    "expected_failure": "Generation / Temporal"
+  },
+  {
+    "question": "How many credits are required to graduate?",
+    "reason": "Graduation credit requirements vary depending on enrollment year, requiring conditional reasoning across documents.",
+    "expected_failure": "Generation / Conditional Reasoning"
+  },
+  {
+    "question": "Do students need 24 credits to graduate?",
+    "reason": "The answer depends on the student's enrollment year, which may cause the model to collapse conditions into a single answer.",
+    "expected_failure": "Generation / Conditional Collapse"
+  },
+  {
+    "question": "What credit requirement applies to students enrolled before 2023?",
+    "reason": "Requires conditional reasoning based on enrollment year policies.",
+    "expected_failure": "Generation / Conditional"
+  },
+  {
+    "question": "What credit requirement applies to students enrolled in 2024?",
+    "reason": "Requires identifying the updated graduation rule introduced in later policy documents.",
+    "expected_failure": "Generation / Conditional"
+  },
+  {
+    "question": "Which students follow the updated graduation rule?",
+    "reason": "The model must infer which student groups are affected by policy changes.",
+    "expected_failure": "Generation / Conditional"
+  },
+  {
+    "question": "A student enrolled in 2022 how many credits are required?",
+    "reason": "Requires combining enrollment year information with graduation policy rules.",
+    "expected_failure": "Generation / Conditional Collapse"
+  },
+  {
+    "question": "When must graduate students submit their thesis proposal?",
+    "reason": "Thesis rules may appear across multiple policy documents, requiring multi-document reasoning.",
+    "expected_failure": "Generation / Multi-Document"
+  },
+  {
+    "question": "Are late thesis proposals accepted?",
+    "reason": "Policy exceptions or updates may exist, and the model may rely on partial information.",
+    "expected_failure": "Generation Bias"
+  },
+  {
+    "question": "Which policy allows late thesis submission?",
+    "reason": "Requires identifying a specific policy document among several related regulations.",
+    "expected_failure": "Generation Gap"
+  },
+  {
+    "question": "What changed in thesis submission rules after 2022?",
+    "reason": "Requires comparing older and updated policy documents.",
+    "expected_failure": "Generation / Multi-Document"
+  },
+  {
+    "question": "What is the student parking fee?",
+    "reason": "Parking fees may vary depending on year or policy updates.",
+    "expected_failure": "Temporal / Generation"
+  },
+  {
+    "question": "What is the visitor parking fee in 2024?",
+    "reason": "Requires retrieving a specific fee associated with a particular year and user category.",
+    "expected_failure": "Retrieval / Temporal"
+  },
+  {
+    "question": "Is parking free for university members?",
+    "reason": "The term 'members' is ambiguous and could refer to different groups such as students, staff, or faculty.",
+    "expected_failure": "Ambiguity"
+  },
+  {
+    "question": "Who can park for free at the university?",
+    "reason": "The relevant policy clearly specifies eligible groups.",
+    "expected_failure": "None"
+  },
+  {
+    "question": "What changed in university policies in 2024?",
+    "reason": "Requires aggregating changes across multiple policy documents.",
+    "expected_failure": "Generation / Multi-Document"
+  },
+  {
+    "question": "Which document contains temporary cafeteria changes?",
+    "reason": "The answer involves identifying the correct document reference.",
+    "expected_failure": "None"
+  },
+  {
+    "question": "Are cafeteria hours the same in 2023 and 2024?",
+    "reason": "Requires comparing schedules across different years.",
+    "expected_failure": "Temporal / Generation"
+  },
+  {
+    "question": "Which graduation rule applies to a student admitted in early 2023?",
+    "reason": "Requires reasoning about enrollment timing and policy updates.",
+    "expected_failure": "Generation / Conditional"
+  }
+]

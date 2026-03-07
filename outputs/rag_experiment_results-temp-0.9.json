@@ -1,0 +1,27 @@
+[
+    {
+        "question": "When will the fall semester begin in 2024?",
+        "context": "The fall semester began on September 1, 2023.\nThe fall semester will begin on September 3, 2024.",
+        "answer": "September 3, 2024"
+    },
+    {
+        "question": "Do students need 24 credits to graduate?",
+        "context": "Students enrolled before 2023 must complete at least 24 credits to graduate.\nStudents enrolled in 2023 or later must complete 30 credits to graduate.\nCredit requirements differ by enrollment year.",
+        "answer": "Yes, but only if they Students enrolled before 2023 require 24 credits"
+    },
+    {
+        "question": "A student enrolled in 2022  how many credits are required?",
+        "context": "Students enrolled before 2023 must complete at least 24 credits to graduate.\nStudents enrolled in 2023 or later must complete 30 credits to graduate.",
+        "answer": "24 credits"
+    },
+    {
+        "question": "What changed in thesis submission rules after 2022?",
+        "context": "Before 2023, graduate students were required to submit their thesis proposal by March 1.\nStarting in 2023, graduate students must submit their thesis proposal by April 1.\nLate submissions are accepted with advisor approval.",
+        "answer": "Starting in 2023, graduate students must submit their thesis proposal by April 1."
+    },
+    {
+        "question": "Which graduation rule applies to a student admitted in early 2023?",
+        "context": "Students enrolled before 2023 follow the old graduation rule requiring 24 credits.\nStudents enrolled in 2023 or later follow the updated graduation rule requiring 30 credits.",
+        "answer": "The updated graduation rule requiring 30 credits."
+    }
+]

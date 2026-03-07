@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What changed in university policies in 2024?",
+        "retrieved_chunks": [
+            "Document 4: Department Policy (Updated – 2024)",
+            "The annual academic meeting for 2024 is scheduled",
+            "The university cafeteria started serving"
+        ],
+        "answer": "Based on the context provided, the following changed in university policies in 2024:\n\n*   The annual academic meeting for 2024 was scheduled.\n*   The university cafeteria started serving."
+    },
+    {
+        "question": "Which document contains temporary cafeteria changes?",
+        "retrieved_chunks": [
+            "Document 6: Cafeteria Notice (Temporary Change)",
+            "the entrance kiosk.",
+            "Students enrolled before 2023 follow the old"
+        ],
+        "answer": "Document 6"
+    },
+    {
+        "question": "Are cafeteria hours the same in 2023 and 2024?",
+        "retrieved_chunks": [
+            "Starting in 2024, the cafeteria serves breakfast",
+            "for students and $12 per day for visitors.",
+            "on June 15, 2023."
+        ],
+        "answer": "This document does not contain the answer to this question."
+    },
+    {
+        "question": "Which graduation rule applies to a student admitted in early 2023?",
+        "retrieved_chunks": [
+            "Students enrolled before 2023 follow the old",
+            "Document 8: Graduation Requirements Clarification",
+            "proposal by March 1."
+        ],
+        "answer": "The provided context does not contain information about students admitted in early 2023. It only states that \"Students enrolled before 2023 follow the old proposal\"."
+    }
+]

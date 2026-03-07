@@ -1,0 +1,92 @@
+[
+    {
+        "question": "When is the annual academic meeting?",
+        "retrieved_chunks": [
+            "The annual academic meeting for 2023 was held on",
+            "for June 20, 2024.",
+            "Document 2: Academic Calendar 2024 (Revised)"
+        ],
+        "answer": "The annual academic meeting for 2023 was held on June 20, 2024."
+    },
+    {
+        "question": "When is the annual research symposium?",
+        "retrieved_chunks": [
+            "The Annual Research Symposium is held every June.",
+            "opened at 9:00 AM in January 2024.",
+            "The fall semester will begin on September 3,"
+        ],
+        "answer": "The Annual Research Symposium is held every June."
+    },
+    {
+        "question": "Is the research symposium the same as the academic meeting?",
+        "retrieved_chunks": [
+            "The symposium is different from the academic",
+            "proposal by March 1.",
+            "Document 2: Academic Calendar 2024 (Revised)"
+        ],
+        "answer": "The context provided does not contain information about an \"academic meeting,\" so it is not possible to determine if the research symposium is the same as an academic meeting."
+    },
+    {
+        "question": "When was the academic meeting held in 2023?",
+        "retrieved_chunks": [
+            "The annual academic meeting for 2023 was held on",
+            "Document 2: Academic Calendar 2024 (Revised)",
+            "opened at 9:00 AM in January 2024."
+        ],
+        "answer": "The provided context does not state when the academic meeting was held in 2023. It only mentions that the annual academic meeting for 2023 was held."
+    },
+    {
+        "question": "When will the academic meeting occur in 2024?",
+        "retrieved_chunks": [
+            "The annual academic meeting for 2024 is scheduled",
+            "Document 4: Department Policy (Updated – 2024)",
+            "Regular breakfast hours resumed in February 2024."
+        ],
+        "answer": "The context does not provide the specific date for the annual academic meeting in 2024. It only states that it is scheduled for that year."
+    },
+    {
+        "question": "Which event takes place on June 18, 2023?",
+        "retrieved_chunks": [
+            "In 2023, it was held on June 18.",
+            "breakfast at 8:00 AM during the 2023 academic",
+            "graduation."
+        ],
+        "answer": "The 2023 academic graduation."
+    },
+    {
+        "question": "When does the fall semester begin?",
+        "retrieved_chunks": [
+            "The fall semester began on September 1, 2023.",
+            "proposal by April 1.",
+            "at 7:00 AM."
+        ],
+        "answer": "September 1, 2023."
+    },
+    {
+        "question": "When did the fall semester start in 2023?",
+        "retrieved_chunks": [
+            "The fall semester began on September 1, 2023.",
+            "In 2023, it was held on June 18.",
+            "at 7:00 AM."
+        ],
+        "answer": "The fall semester began on September 1, 2023."
+    },
+    {
+        "question": "When will the fall semester begin in 2024?",
+        "retrieved_chunks": [
+            "The fall semester will begin on September 3,",
+            "In 2024, it will be held on June 22.",
+            "Document 4: Department Policy (Updated – 2024)"
+        ],
+        "answer": "June 22."
+    },
+    {
+        "question": "What time does the cafeteria start serving breakfast?",
+        "retrieved_chunks": [
+            "Starting in 2024, the cafeteria serves breakfast",
+            "the entrance kiosk.",
+            "proposal by March 1."
+        ],
+        "answer": "The provided context does not state what time the cafeteria starts serving breakfast. It only mentions that they *start* serving breakfast in 2024."
+    }
+]

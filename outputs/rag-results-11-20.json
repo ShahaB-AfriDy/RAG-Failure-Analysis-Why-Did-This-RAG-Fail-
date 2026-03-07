@@ -1,0 +1,92 @@
+[
+    {
+        "question": "When did the cafeteria temporarily open at 9:00 AM?",
+        "retrieved_chunks": [
+            "Due to renovations, the cafeteria temporarily",
+            "Document 3: Department Policy (Old Version –",
+            "$10 per day for visitors."
+        ],
+        "answer": "The provided context does not contain information about when the cafeteria temporarily opened at 9:00 AM."
+    },
+    {
+        "question": "When did normal cafeteria hours resume in 2024?",
+        "retrieved_chunks": [
+            "Starting in 2024, the cafeteria serves breakfast",
+            "for students and $12 per day for visitors.",
+            "on June 15, 2023."
+        ],
+        "answer": "Based on the context provided, there is no information about when normal cafeteria hours resumed in 2024."
+    },
+    {
+        "question": "How many credits are required to graduate?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "proposal by April 1.",
+            "on June 15, 2023."
+        ],
+        "answer": "The context does not state how many credits are required to graduate. It only mentions that credit requirements differ by enrollment year."
+    },
+    {
+        "question": "Do students need 24 credits to graduate?",
+        "retrieved_chunks": [
+            "Students must complete at least 24 credits before",
+            "Document 4: Department Policy (Updated – 2024)",
+            "for students and $12 per day for visitors."
+        ],
+        "answer": "Students must complete at least 24 credits before."
+    },
+    {
+        "question": "What credit requirement applies to students enrolled before 2023?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "Document 3: Department Policy (Old Version –",
+            "breakfast at 8:00 AM during the 2023 academic"
+        ],
+        "answer": "The provided context does not contain information about the credit requirements for students enrolled before 2023. It only mentions that credit requirements differ by enrollment year and provides a detail about breakfast during the 2023 academic year."
+    },
+    {
+        "question": "What credit requirement applies to students enrolled in 2024?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "Document 2: Academic Calendar 2024 (Revised)",
+            "In 2024, it will be held on June 22."
+        ],
+        "answer": "The provided context does not specify the credit requirements for students enrolled in 2024. It only mentions that credit requirements differ by enrollment year and provides a date for an event in 2024."
+    },
+    {
+        "question": "Which students follow the updated graduation rule?",
+        "retrieved_chunks": [
+            "Students enrolled before 2023 follow the old",
+            "Document 8: Graduation Requirements Clarification",
+            "Students must display a valid permit."
+        ],
+        "answer": "The provided context does not specify which students follow the updated graduation rule. It only states that \"Students enrolled before 2023 follow the old\" rules."
+    },
+    {
+        "question": "A student enrolled in 2022 how many credits are required?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.",
+            "for students and $12 per day for visitors.",
+            "Document 4: Department Policy (Updated – 2024)"
+        ],
+        "answer": "I apologize, but the provided context does not contain the answer to how many credits are required for a student enrolled in 2022. The context mentions that credit requirements differ by enrollment year but does not specify the requirements for 2022."
+    },
+    {
+        "question": "When must graduate students submit their thesis proposal?",
+        "retrieved_chunks": [
+            "Graduate students must submit their thesis",
+            "The Annual Research Symposium is held every June.",
+            "3, 2024."
+        ],
+        "answer": "The provided context does not contain information about when graduate students must submit their thesis proposal."
+    },
+    {
+        "question": "Are late thesis proposals accepted?",
+        "retrieved_chunks": [
+            "Late submissions are accepted with advisor",
+            "graduation.",
+            "old credit rule."
+        ],
+        "answer": "Based on the context provided, it is not possible to determine if late thesis proposals are accepted. The context only mentions that late submissions are accepted with advisor graduation and refers to an \"old credit rule.\""
+    }
+]

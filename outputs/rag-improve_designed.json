@@ -1,0 +1,57 @@
+[
+    {
+        "question": "When is the annual academic meeting?",
+        "retrieved_chunks": [
+            "The annual academic meeting for 2023 was held on June 15, 2023.\nThe fall semester began on September 1, 2023.",
+            "Graduate students must submit their thesis proposal by April 1.\nLate submissions are accepted with advisor approval.",
+            "Due to renovations, the cafeteria temporarily opened at 9:00 AM in January 2024.\nRegular breakfast hours resumed in February 2024.",
+            "Document 3: Department Policy (Old Version – 2022)",
+            "Parking fees were $5 per day for students and $10 per day for visitors."
+        ],
+        "answer": "The annual academic meeting for 2023 was held on June 15, 2023."
+    },
+    {
+        "question": "How many credits are required to graduate?",
+        "retrieved_chunks": [
+            "Students must complete at least 30 credits before graduation.",
+            "The annual academic meeting for 2024 is scheduled for June 20, 2024.\nThe fall semester will begin on September 3, 2024.",
+            "Parking fees were $5 per day for students and $10 per day for visitors.",
+            "Document 5: Research Symposium Information",
+            "Due to renovations, the cafeteria temporarily opened at 9:00 AM in January 2024.\nRegular breakfast hours resumed in February 2024."
+        ],
+        "answer": "Students must complete at least 30 credits before graduation."
+    },
+    {
+        "question": "What are the cafeteria hours?",
+        "retrieved_chunks": [
+            "Due to renovations, the cafeteria temporarily opened at 9:00 AM in January 2024.\nRegular breakfast hours resumed in February 2024.",
+            "Faculty members park free of charge.\nStudents must display a valid permit.\nVisitors must pay the daily parking fee at the entrance kiosk.",
+            "Document 3: Department Policy (Old Version – 2022)",
+            "The Annual Research Symposium is held every June.\nIn 2023, it was held on June 18.\nIn 2024, it will be held on June 22.",
+            "Graduate students must submit their thesis proposal by March 1.\nLate submissions are not accepted."
+        ],
+        "answer": "The provided context does not state the cafeteria's regular operating hours. It only mentions that the cafeteria temporarily opened at 9:00 AM in January 2024 due to renovations, and regular breakfast hours resumed in February 2024."
+    },
+    {
+        "question": "Is parking free for university members?",
+        "retrieved_chunks": [
+            "Faculty members park free of charge.\nStudents must display a valid permit.\nVisitors must pay the daily parking fee at the entrance kiosk.",
+            "Document 4: Department Policy (Updated – 2024)",
+            "The Annual Research Symposium is held every June.\nIn 2023, it was held on June 18.\nIn 2024, it will be held on June 22.",
+            "Due to renovations, the cafeteria temporarily opened at 9:00 AM in January 2024.\nRegular breakfast hours resumed in February 2024.",
+            "Students must complete at least 30 credits before graduation."
+        ],
+        "answer": "No, parking is not free for all university members. Faculty members park free of charge, but students must display a valid permit and visitors must pay a daily fee."
+    },
+    {
+        "question": "Do students enrolled before 2022 need 30 credits?",
+        "retrieved_chunks": [
+            "Credit requirements differ by enrollment year.\nStudents enrolled before 2023 follow the old credit rule.",
+            "The university cafeteria started serving breakfast at 8:00 AM during the 2023 academic year.",
+            "The annual academic meeting for 2024 is scheduled for June 20, 2024.\nThe fall semester will begin on September 3, 2024.",
+            "Parking fees were $5 per day for students and $10 per day for visitors.",
+            "Document 6: Cafeteria Notice (Temporary Change)"
+        ],
+        "answer": "Students enrolled before 2023 follow the old credit rule; 30 credits are not specified."
+    }
+]

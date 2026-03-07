@@ -1,0 +1,263 @@
+[
+    {
+        "question": "Which graduation rule applies to a student admitted in early 2022?",
+        "retrieved_chunks": [
+            "may follow earlier graduation requirements.",
+            "Orientation occurs in June but is non-academic.",
+            "Document 3 — Transitional Rule"
+        ],
+        "answer": "The provided context does not specify which graduation rule applies to a student admitted in early 2022. It only mentions that students \"may follow earlier graduation requirements.\""
+    },
+    {
+        "question": "Can a student admitted after approval but before enforcement use internships?",
+        "retrieved_chunks": [
+            "Students admitted before policy revision approval",
+            "but Deep Learning is optional.",
+            "Document 4 — Senate Approval Note"
+        ],
+        "answer": "Based on the context provided, there is no information about whether a student admitted after approval but before enforcement can use internships. The context only mentions students admitted *before* policy revision approval where Deep Learning is optional."
+    },
+    {
+        "question": "Which policy determines graduation eligibility today?",
+        "retrieved_chunks": [
+            "Document 1 — Graduation Policy (2019)",
+            "Scholarship requires GPA 3.5.",
+            "2021"
+        ],
+        "answer": "The context does not provide information about which policy determines graduation eligibility today. It only mentions the \"Graduation Policy (2019)\" and a scholarship requirement."
+    },
+    {
+        "question": "Did internship replacement end in 2021 or 2022?",
+        "retrieved_chunks": [
+            "Internships cannot replace electives.",
+            "Document 3 — Transitional Rule",
+            "Research Symposium — June 20"
+        ],
+        "answer": "The provided context does not contain information about when internship replacement ended."
+    },
+    {
+        "question": "Which students follow transitional rules?",
+        "retrieved_chunks": [
+            "Document 3 — Transitional Rule",
+            "AI students must complete Machine Learning",
+            "faculty, and external researchers."
+        ],
+        "answer": "AI students must complete Machine Learning."
+    },
+    {
+        "question": "What GPA was required immediately before 2025?",
+        "retrieved_chunks": [
+            "Starting 2025, GPA requirement becomes 3.7.",
+            "2021",
+            "AI students must complete Machine Learning"
+        ],
+        "answer": "The context provided does not state the GPA requirement immediately before 2025. It only states that starting in 2025, the GPA requirement becomes 3.7."
+    },
+    {
+        "question": "Is the draft scholarship rule active?",
+        "retrieved_chunks": [
+            "Document 6 — Scholarship Update Draft",
+            "Internships cannot replace electives.",
+            "2021"
+        ],
+        "answer": "The provided context does not state whether the draft scholarship rule is active."
+    },
+    {
+        "question": "Which GPA applies if scholarship was awarded in 2024?",
+        "retrieved_chunks": [
+            "Scholarship requires GPA 3.5.",
+            "Document 2 — Graduation Revision (2022)",
+            "Orientation occurs in June but is non-academic."
+        ],
+        "answer": "3.5"
+    },
+    {
+        "question": "When did scholarship requirements actually change?",
+        "retrieved_chunks": [
+            "Proposed scholarship GPA requirement: 3.7.",
+            "Document 2 — Graduation Revision (2022)",
+            "but Deep Learning is optional."
+        ],
+        "answer": "The provided context does not state when scholarship requirements actually changed. It only mentions a \"Proposed scholarship GPA requirement: 3.7.\""
+    },
+    {
+        "question": "Are proposed policies enforceable?",
+        "retrieved_chunks": [
+            "Students admitted before policy revision approval",
+            "Models may answer confidently without evidence.",
+            "Document 18 — Generation Limitation"
+        ],
+        "answer": "The provided context does not contain information about whether proposed policies are enforceable."
+    },
+     {
+        "question": "What time does the library close in July?",
+        "retrieved_chunks": [
+            "Summer closing: 18:00",
+            "Document 17 — Retrieval Limitation",
+            "The graduation revision was approved in November"
+        ],
+        "answer": "The context provided does not state the library's closing time in July. It only mentions \"Summer closing: 18:00\", which is a general summer closing time."
+    },
+    {
+        "question": "Which June event counts as academic?",
+        "retrieved_chunks": [
+            "Document 10 — Events\nAcademic Meeting — June 15",
+            "Internships cannot replace electives.",
+            "Students awarded earlier retain benefits."
+        ],
+        "answer": "Academic Meeting"
+    },
+    {
+        "question": "Are all June activities academic events?",
+        "retrieved_chunks": [
+            "Document 10 — Events\nAcademic Meeting — June 15",
+            "Summer semester runs May–July.",
+            "but enforced beginning Fall 2022 intake."
+        ],
+        "answer": "The context does not provide enough information to answer whether all June activities are academic events. It only mentions an \"Academic Meeting\" on June 15."
+    },
+    {
+        "question": "Which event occurs during summer semester?",
+        "retrieved_chunks": [
+            "Summer semester runs May–July.",
+            "Document 2 — Graduation Revision (2022)",
+            "faculty, and external researchers."
+        ],
+        "answer": "Graduation"
+    },
+    {
+        "question": "What schedule applies on June 20 evenings?Is parking free for members?",
+        "retrieved_chunks": [
+            "Summer closing: 18:00",
+            "Orientation occurs in June but is non-academic.",
+            "Document 13 — Membership Definition"
+        ],
+        "answer": "I cannot answer whether parking is free for members, as this information is not provided in the context.\n\nHowever, based on the context, the schedule on June 20 evenings would be the summer closing schedule, meaning the establishment closes at 18:00."
+    },
+    {
+        "question": "Can researchers park without registration?",
+        "retrieved_chunks": [
+            "Faculty pay fees.\nVisitors must register.",
+            "Models may answer confidently without evidence.",
+            "Students awarded earlier retain benefits."
+        ],
+        "answer": "The provided context does not contain information about researchers parking or registration requirements for researchers."
+    },
+    {
+        "question": "Do all university members park free?",
+        "retrieved_chunks": [
+            "Faculty pay fees.\nVisitors must register.",
+            "The graduation revision was approved in November",
+            "Document 3 — Transitional Rule"
+        ],
+        "answer": "Based on the context provided, there is no information about parking fees. Therefore, it cannot be determined if all university members park free."
+    },
+    {
+        "question": "Who qualifies as a parking member?",
+        "retrieved_chunks": [
+            "Document 13 — Membership Definition",
+            "Summer closing: 18:00",
+            "but Deep Learning is optional."
+        ],
+        "answer": "The provided context does not contain information about who qualifies as a parking member."
+    },
+    {
+        "question": "Are alumni treated as students for parking?",
+        "retrieved_chunks": [
+            "Document 12 — Parking Policy\nStudents park free.",
+            "Research Symposium — June 20",
+            "but Deep Learning is optional."
+        ],
+        "answer": "The provided context does not mention alumni or how they are treated for parking."
+    },
+    {
+        "question": "Do AI students require Deep Learning?",
+        "retrieved_chunks": [
+            "but Deep Learning is optional.",
+            "Models may answer confidently without evidence.",
+            "Students awarded earlier retain benefits."
+        ],
+        "answer": "Deep Learning is optional."
+    },
+    {
+        "question": "Is Deep Learning mandatory in Data Science?",
+        "retrieved_chunks": [
+            "but Deep Learning is optional.",
+            "Relevant information may be distributed across",
+            "Faculty pay fees.\nVisitors must register."
+        ],
+        "answer": "Deep Learning is optional."
+    },
+    {
+        "question": "Which program guarantees Deep Learning study?",
+        "retrieved_chunks": [
+            "but Deep Learning is optional.",
+            "Models may answer confidently without evidence.",
+            "Students admitted before policy revision approval"
+        ],
+        "answer": "This question cannot be answered from the given context. The context states that \"Deep Learning is optional\" and mentions \"Students admitted before policy revision approval,\" but it does not specify any program that guarantees the study of Deep Learning."
+    },
+    {
+        "question": "Are advanced electives compulsory?",
+        "retrieved_chunks": [
+            "and advanced electives.",
+            "AI students must complete Machine Learning",
+            "Students awarded earlier retain benefits."
+        ],
+        "answer": "The provided text does not state whether advanced electives are compulsory. It only mentions that AI students must complete Machine Learning."
+    },
+    {
+        "question": "Do both programs share identical requirements?",
+        "retrieved_chunks": [
+            "but Deep Learning is optional.",
+            "Students admitted before policy revision approval",
+            "Document 14 — AI Program"
+        ],
+        "answer": "The provided context does not contain enough information to answer whether both programs share identical requirements. It only states that Deep Learning is optional."
+    },
+    {
+        "question": "Which specialization has more total credits?",
+        "retrieved_chunks": [
+            "Students must complete 30 credits.",
+            "Document 15 — Data Science Program",
+            "Relevant information may be distributed across"
+        ],
+        "answer": "This question cannot be answered from the given source. The provided text only states that students must complete 30 credits and mentions \"Document 15 — Data Science Program\" without providing any details about specializations or their credit requirements."
+    },
+    {
+        "question": "When exactly does Orientation start?",
+        "retrieved_chunks": [
+            "Orientation occurs in June but is non-academic.",
+            "Summer closing: 18:00",
+            "Document 2 — Graduation Revision (2022)"
+        ],
+        "answer": "The provided context states that Orientation occurs in June but does not specify an exact start date."
+    },
+    {
+        "question": "Which June event lasts longer?",
+        "retrieved_chunks": [
+            "Research Symposium — June 20",
+            "Document 3 — Transitional Rule",
+            "Models may answer confidently without evidence."
+        ],
+        "answer": "Based on the provided context, there is no information to determine which June event lasts longer. The context only mentions \"Research Symposium — June 20\" and \"Document 3 — Transitional Rule\" with no details about their duration."
+    },
+    {
+        "question": "How many electives exist in AI?",
+        "retrieved_chunks": [
+            "and advanced electives.",
+            "Document 14 — AI Program",
+            "Data Science requires Machine Learning"
+        ],
+        "answer": "The provided context does not contain information about the number of electives in AI. It only states that \"Data Science requires Machine Learning\" and mentions \"advanced electives.\""
+    },
+    {
+        "question": "What policy overrides conflicting rules?",
+        "retrieved_chunks": [
+            "Document 3 — Transitional Rule",
+            "Models may answer confidently without evidence.",
+            "Internships may replace one elective course."
+        ],
+        "answer": "The provided context does not contain information about what policy overrides conflicting rules."
+    }
+]
