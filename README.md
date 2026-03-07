@@ -1,5 +1,3 @@
----
-
 # RAG Failure Analysis: “Why Did This RAG Fail?”
 
 **Author:** Shahab Afridi
