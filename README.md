@@ -1,6 +1,7 @@
 # RAG Failure Analysis: “Why Did This RAG Fail?”
 
 **Author:** Shahab Afridi
+
 **Project Duration:** Feb 26, 2026 – Mar 7, 2026
 
 ---
