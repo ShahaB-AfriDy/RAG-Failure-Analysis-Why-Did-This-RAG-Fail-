@@ -8,7 +8,7 @@
 
 ## 1. Project Purpose
 
-This project implements a **minimal Retrieval-Augmented Generation (RAG) pipeline** to systematically investigate **why RAG systems fail**. The goal is **not** to optimize performance or create a production-ready system, but to:
+This Mini-project implements a **minimal Retrieval-Augmented Generation (RAG) pipeline** to systematically investigate **why RAG systems fail**. The goal is **not** to optimize performance or create a production-ready system, but to:
 
 * Identify and categorize **failure types** (retrieval, generation, ambiguity)
 * Understand the impact of **retrieval design parameters** (chunk size, Top-k, MMR, metadata filtering)
@@ -75,7 +75,7 @@ The pipeline includes:
   * **Temporal conflicts** – Old vs updated policies
   * **Conditional reasoning** – Enrollment year vs credit rules
   * **Ambiguity** – Vague or underspecified terms
-  * **Conceptual confusion** – Similar events or terms (e.g., academic meeting vs research symposium)
+  * **Conceptual confusion** – Similar events or terms (academic meeting vs research symposium)
 
 * Questions are stored in `30_Questions.json` and used for both **baseline and improved retrieval experiments**.
 
@@ -130,19 +130,19 @@ The notebooks perform:
 
 ## 7. Experimental Design Notes
 
-* **Chunk Size & Overlap** – Smaller chunks fragment context to expose failures
-* **Top-k & Retrieval Type** – Tested multiple values to observe retrieval vs generation failures
-* **Metadata-Based Filtering** – Used to resolve temporal conflicts
-* **LLM Temperature** – `0.9` for stochastic evaluation, `0.0` for deterministic testing
-* **Goal** – Capture **structural weaknesses** of RAG rather than optimize performance
+* **Chunk Size & Overlap** : Smaller chunks fragment context to expose failures
+* **Top-k & Retrieval Type** : Tested multiple values to observe retrieval vs generation failures
+* **Metadata-Based Filtering** : Used to resolve temporal conflicts
+* **LLM Temperature** : `0.9` for stochastic evaluation, `0.0` for deterministic testing
+* **Goal** : Capture **structural weaknesses** of RAG rather than optimize performance
 
 ---
 
 ## 8. Key Findings
 
-* **Generation Errors Predominate** – Most failures occur when the model interprets retrieved content incorrectly, particularly for **conditional and multi-document reasoning**.
-* **Retrieval Failures Are Less Frequent** – Missing or fragmented chunks account for fewer failures but can still induce hybrid errors.
-* **Ambiguity and Temporal Conflicts** – Metadata filtering mitigates temporal conflicts, but ambiguity remains challenging.
+* **Generation Errors Predominate** : Most failures occur when the model interprets retrieved content incorrectly, particularly for **conditional and multi-document reasoning**.
+* **Retrieval Failures Are Less Frequent** : Missing or fragmented chunks account for fewer failures but can still induce hybrid errors.
+* **Ambiguity and Temporal Conflicts** : Metadata filtering mitigates temporal conflicts, but ambiguity remains challenging.
 
 ---
 
